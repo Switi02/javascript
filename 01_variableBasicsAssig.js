@@ -22,4 +22,8 @@ console.log("Is student Obidient :", isObidient, "             Type :", typeof i
 var isFriendly = false;
 console.log("Is student Friendly :", isFriendly, "            Type :", typeof isFriendly);
 
-
+console.log("*******************************************************");
+// Difference between Null and Undefined
+console.log("*Difference between Null and Undefined*");
+console.log("'Null' indicates the absence of a value for a variable whereas 'Undefined' indicates the absence of the variable itself.");
+console.log(" For ex. 'var grade = null;' indicates grade has no object and 'var grade;' indicates grade is created but not yet defined. ");
