@@ -1,3 +1,5 @@
+
+console.log("Function with no arguments and no return value");
 function show() {
     console.log("Show function");
 }
@@ -17,6 +19,9 @@ var name2 = "Elon Musk";
 var fruitApple = "Apple";
 var fruitMango = "Mango";
 
+console.log("_____________________________________________");
+
+console.log("Function with arguments and no return value");
 function swapVariables(valueOne, valueTwo){ // Arguments: valueOne =100  valueTwo = 200 var valueThree;
     console.log("Before Swap: ", valueOne, valueTwo);
     var temp = valueOne;
@@ -27,3 +32,15 @@ function swapVariables(valueOne, valueTwo){ // Arguments: valueOne =100  valueTw
 swapVariables(numOne, numTwo); // 100 200
 swapVariables(name1, name2);
 swapVariables(fruitApple, fruitMango);
+console.log("_____________________________________________");
+
+console.log("Function with arguments and return value");
+function addition(num1, num2) {
+    var result  = num1 + num2;// result = 300
+    return result;
+}
+var returnValue = addition(100, 200);
+console.log("Addition of number is: ", returnValue);
+var returnResult = addition(890.400, 600.3456);
+console.log("Addition of number is: ", returnResult);
+
